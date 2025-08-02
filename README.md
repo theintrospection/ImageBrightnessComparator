@@ -25,9 +25,13 @@ Once I opened a `.png` file with Notepad, and the content displayed in Notepad w
 
 - (3) **The mismatch led to this result**: When Notepad encounters the bytes of a PNG file, it tries its beat to translate them into characters. The result is a stream of unprintalbe characters, control codes, and what might look like random letters and symbols. You'll often see the letters "PNG" near the beginning, as this is part of the file's header and is human-readable, but the rest will be garbled.
 
-So what the Binary file `.png` consist of?
+**So what the Binary file `.png` consist of?**
 
 - (1) File Header: The very first byes of a PNG file are a "signature" that identifies it as a PNG. This is why when you open a PNG in Notepad, you might see the letters "PNG" at the beginning--it's part of this human-readable signature.
 
-- (2)
+- (2) Image Dimensions: A seqence of byes will specify the width and height of the image in pixels. For example, the number `500` would be represented by a series of bytes.
+
+- (3) Color Information: The bytes might define the color palette or the number of bits per pixel.
+
+- (4) Pixel Data: This is the bulk of the file. The bytes represent the actual colors of each pixel,
 
