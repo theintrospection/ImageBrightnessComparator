@@ -31,7 +31,9 @@ Once I opened a `.png` file with Notepad, and the content displayed in Notepad w
 
 - (2) Image Dimensions: A seqence of byes will specify the width and height of the image in pixels. For example, the number `500` would be represented by a series of bytes.
 
-- (3) Color Information: The bytes might define the color palette or the number of bits per pixel.
+- (3) Color Information: The bytes might define ***the color palette or the number of bits per pixel.***
 
 - (4) Pixel Data: This is the bulk of the file. The bytes represent the actual colors of each pixel,
+
+So first of all I should make a PNG parser???
 
