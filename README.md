@@ -37,3 +37,5 @@ Once I opened a `.png` file with Notepad, and the content displayed in Notepad w
 
 So first of all I should make a PNG parser???
 
+Yeah, a PNG parser which is able to parse a input PNG file.
+
